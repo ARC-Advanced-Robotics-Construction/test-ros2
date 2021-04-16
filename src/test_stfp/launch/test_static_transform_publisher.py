@@ -22,5 +22,5 @@ def get_nodes(num_nodes):
     return nodes
 
 def generate_launch_description():
-    return LaunchDescription(get_nodes(101))
+    return LaunchDescription(get_nodes(100))
 
